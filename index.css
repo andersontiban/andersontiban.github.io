@@ -1,0 +1,167 @@
+/*For desktop*/
+@media screen and (min-device-width:750px){
+
+    *{
+        margin:0%;
+        padding:0%;
+        
+    }
+    /*Mobile NavBar*/
+    .topnav{
+    display: none;
+    }
+    /*HEADER CSS*/
+    header{
+        display: flex;
+        width: 70%;
+        justify-content: flex-end;
+        margin:auto;
+        padding-top: 2%;
+    
+
+    }
+    header h2{
+        color: white;
+        padding: 2%;
+ 
+    }
+    #push{
+        padding-left: 65%;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        /*background-image: linear-gradient(90deg,rgb(190, 88, 88) 0%, rgb(152, 149, 207) 100%);*/
+        background-image: linear-gradient(90deg,rgb(230, 179, 131) 0%, rgb(240, 239, 239) 100%);
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    
+   
+    /*BODY CSS*/
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: flex-start;
+        margin: auto;
+        margin-top: 7%;
+        color: black;
+
+    }
+    /*span{
+        color:rgb(249, 183, 177);
+    }
+    */
+
+    #container h1{
+        font-size: 57px;;
+    }
+    #intro{
+    
+        width: 70%;
+        margin-top: 5%;
+    }
+    p{
+        margin-top: 3%;
+        color: rgb(24, 24, 24);
+        font-size: 17px;
+    }
+    #hr{
+        padding-top: 20%;
+        width:100%;
+    }
+    #particles-js {
+        background: black;
+        height: 100vh;
+    }
+}
+
+/*For mobile*/
+@media screen and (max-device-width:480px){
+    *{
+        margin:0%;
+        padding:0%;
+    }
+    #hr{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+
+    /*Mobile NavBar ***************************************************************************************/
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+        width: 100%;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+        ;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background:white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    
+      }
+      .image-home{
+        width: 25px;
+        height: auto;
+        margin: 0 auto;
+        
+      }
+      /*Mobile NavBar****************************************************************************************************/
+    body{
+        display: flex;
+        /*background-image: linear-gradient(90deg,rgb(235, 51, 51) 0%, rgb(152, 149, 207) 100%);*/
+        background-color: rgb(255, 207, 167);
+        background-color: rgb(251, 226, 206);
+        flex-direction: column;
+        height: 100%;
+       
+    }
+   
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    #mobile-hr{
+        display: block;
+    }
+    h1{
+        width:80%;
+        margin:auto;
+        color:rgb(26, 26, 26);
+
+    }
+    #mobile-h1{
+        margin-bottom: 10%;
+    }
+    p{
+        width:80%;
+        margin:auto;
+        padding-top: 5%;
+    }
+
+
+}
