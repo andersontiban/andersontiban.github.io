@@ -59,6 +59,18 @@
     width: 50%;
 
   }
+  /*footer*********************************************************************************/
+  #footer{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    color: white;
+  }
+  a:hover {
+    color: black;
+  }
 
 
 
