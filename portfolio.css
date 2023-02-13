@@ -135,6 +135,9 @@
         color: #1a1819;
        
     }
+    #tools-used img{
+      width: 100%;
+    }
 
     /*footer*/
     footer{
