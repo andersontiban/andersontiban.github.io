@@ -60,38 +60,44 @@
 
   }
   /*footer*********************************************************************************/
-  #footer{
-    width: 25%;
+  footer{
+    margin-top: 4.1%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color: rgb(50, 48, 48);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
   a{
     color: white;
+    padding-left: 4%;
+    padding-right: 4%;
   }
   a:hover {
-    color: black;
+    color: #1a1819;
   }
 
 
-
-
-
-
-
-/*Mobile NavBar***************************************************************************************************/
+/*Mobile tags to not display***************************************************************************************************/
 .topnav{
     display: none;
 }
+#self-portraitMobile{
+  display: none;
+}
+
 }
 
 @media screen and (max-device-width:480px){
+
     /*desktop NavBar*************************************************************************************/
     header{
         display: none;
     }
 
     /*Mobile NavBar ***************************************************************************************/
-    .topnav {
+    .topnav{
         overflow: hidden;
         background-color: white;
         position: relative;
@@ -128,8 +134,40 @@
         margin: 0 auto;
         
       }
-      /*Mobile NavBar****************************************************************************************************/
+      /*Body****************************************************************************************************/
       body{
-        background-color: aqua;
+        background-color: #ece7e1;
+        display: flex;
+        flex-direction: column;
       }
+      #intro{
+        display: flex;
+      }
+      /*footer**********************************************************************************************/
+      #self-portraitMobile{
+        width:40%;
+      }
+      footer{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgb(50, 48, 48);
+        margin-top: 44%;
+      }
+      #footer{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+      }
+      a{
+        color: white;
+      }
+      a:hover {
+        color: #1a1819;
+      }
+
+      /*Desktop tags to not show******************************************************************/
+      #self-portrait{
+        display: none;
+      }
+    
 }
