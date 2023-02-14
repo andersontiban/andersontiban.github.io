@@ -11,13 +11,23 @@
       justify-content: flex-end;
       margin:auto;
       padding-top: 2%;
+      font-family: 'Playfair Display', serif;
   }
 
+
+  header a{
+    color: #1a1819;
+    padding: 3%;
+
+  }
+  a:hover{
+    text-decoration: line-through;
+  
+  }
   header h2{
-      color: #1a1819;
-      padding: 2%;
+    font-size: x-large;
+    font-family: 'Playfair Display', serif;
   }
-
   #push{
       padding-left: 65%;
   }
@@ -34,20 +44,21 @@
   body h1,h2{
     width: 80%;
     margin: auto;
+    font-family: 'Playfair Display', serif;
   }
   #about-me{
-
     display: flex;
     flex-direction: row;
     width: 80%;
     margin: auto;
+    margin-bottom: 0%;
   }
   #about-me p{
     width: 50%;
   }
   #self-portrait{
     height: auto;
-    width: 225px;
+    width: 250px;
     margin-left: 15%;
     border-radius: 50%;
   }
@@ -59,9 +70,13 @@
     width: 50%;
 
   }
+  span{
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+  }
   /*footer*********************************************************************************/
   footer{
-    margin-top: 4.1%;
+    margin-top: 4.7%;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
     background-color: rgb(50, 48, 48);
@@ -84,6 +99,9 @@
     display: none;
 }
 #self-portraitMobile{
+  display: none;
+}
+br{
   display: none;
 }
 
@@ -140,18 +158,26 @@
         display: flex;
         flex-direction: column;
       }
+      h1,h2{
+        font-family: 'Playfair Display', serif;
+      }
       #intro{
         display: flex;
+      }
+      #intro, #about-me, #interest{
+        width: 80%;
+        margin:auto;
       }
       /*footer**********************************************************************************************/
       #self-portraitMobile{
         width:40%;
+        margin-left: 10%;
       }
       footer{
         padding-top: 3%;
         padding-bottom: 3%;
         background-color: rgb(50, 48, 48);
-        margin-top: 44%;
+        margin-top: 42%;
       }
       #footer{
         width: 25%;
