@@ -20,14 +20,24 @@
     
 
     }
-    header h2{
+    header a{
         color: #1a1819;;
-        padding: 2%;
- 
+        padding: 0.4%;
     }
-    #push{
-        padding-left: 65%;
+    a:hover{
+      text-decoration: line-through;
+      color: #1a1819;
     }
+    header h2{
+      font-size: x-large;
+      font-family: 'Playfair Display', serif;
+    
+    }
+    h7, h5{
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+    }
+    
 
     body{
       background-color: #ece7e1;

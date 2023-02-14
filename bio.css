@@ -12,12 +12,14 @@
       margin:auto;
       padding-top: 2%;
       font-family: 'Playfair Display', serif;
+      padding-bottom: 4%;
   }
 
 
   header a{
     color: #1a1819;
-    padding: 3%;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
 
   }
   a:hover{
@@ -28,9 +30,7 @@
     font-size: x-large;
     font-family: 'Playfair Display', serif;
   }
-  #push{
-      padding-left: 65%;
-  }
+  
   /*Elements in Body*************************************************************************************************/
   body{
       display: flex;
