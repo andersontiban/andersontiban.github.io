@@ -52,6 +52,7 @@
     }
     #computer{
       width: 40%;
+      margin-right: 8%;
     }
     #tools-used{
       display: flex;
