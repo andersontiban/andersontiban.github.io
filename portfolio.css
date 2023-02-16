@@ -1,178 +1,165 @@
 /*For desktop*/
-@media screen and (min-device-width:750px){
-
-    *{
-        margin:0%;
-        padding:0%;
-        
-    }
-    /*Mobile NavBar*/
-    .topnav{
+@media screen and (min-device-width: 750px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  /*Mobile NavBar*/
+  .topnav {
     display: none;
-    }
-    /*HEADER CSS*/
-    header{
-        display: flex;
-        width: 70%;
-        justify-content: flex-end;
-        margin:auto;
-        padding-top: 2%;
-    
+  }
+  /*HEADER CSS*/
+  header {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    margin: auto;
+    padding-top: 2%;
+  }
+  header a {
+    color: #1a1819;
+    padding: 0.4%;
+  }
+  a:hover {
+    text-decoration: line-through;
+    color: #1a1819;
+  }
+  header h2 {
+    font-size: x-large;
+    font-family: "Playfair Display", serif;
+  }
+  h7,
+  h5 {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+  }
 
-    }
-    header a{
-        color: #1a1819;;
-        padding: 0.4%;
-    }
-    a:hover{
-      text-decoration: line-through;
-      color: #1a1819;
-    }
-    header h2{
-      font-size: x-large;
-      font-family: 'Playfair Display', serif;
-    
-    }
-    h7, h5{
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-    }
-    
+  body {
+    background-color: #ece7e1;
+  }
+  #project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    margin: auto;
+  }
+  #computer {
+    width: 40%;
+    margin-right: 8%;
+  }
+  #tools-used {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  #project2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    margin: auto;
+  }
 
-    body{
-      background-color: #ece7e1;
+  footer {
+    margin-top: 4.1%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color: rgb(50, 48, 48);
+    display: flex;
+    justify-content: space-between;
+  }
 
-    }
-    #project1{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 65%;
-      margin: auto;
-    }
-    #computer{
-      width: 40%;
-      margin-right: 8%;
-    }
-    #tools-used{
-      display: flex;
-      flex-direction: row;
-      align-items: start;
-    }
-    #project2{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      width:65%;
-      margin: auto;
-    }
-
-    footer{
-        margin-top: 4.1%;
-        padding-top: 0.7%;
-        padding-bottom: 0.7%;
-        background-color: rgb(50, 48, 48);
-        display: flex;
-        justify-content: space-between;
-      }
-    
-      a{
-        color: white;
-        padding-left: 4%;
-        padding-right: 4%;
-      }
-      a:hover {
-        color: #1a1819;
-      }
-    
-   
+  a {
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  a:hover {
+    color: #1a1819;
+  }
 }
 
 /*For mobile*/
-@media screen and (max-device-width:480px){
-    *{
-        margin:0%;
-        padding:0%;
-    }
-  
-    header{
-        display: none;
-    }
+@media screen and (max-device-width: 480px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
 
-    /*Mobile NavBar ***************************************************************************************/
-    .topnav {
-        overflow: hidden;
-        background-color: white;
-        position: relative;
-        width: 100%;
-      }
-      
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      /* Style navigation menu links */
-      .topnav a {
-        color: #1a1819;;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-      
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        background:white;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    
-      }
-      .image-home{
-        width: 25px;
-        height: auto;
-        margin: 0 auto;
-        
-      }
-      /*Mobile NavBar****************************************************************************************************/
-    body{
-        display: flex;
-        /*background-image: linear-gradient(90deg,rgb(235, 51, 51) 0%, rgb(152, 149, 207) 100%);*/
-        background-color: #ece7e1;
-        flex-direction: column;
-        height: 100%;
-        color: #1a1819;
-       
-    }
-    #tools-used img{
-      width: 100%;
-    }
+  header {
+    display: none;
+  }
 
-    /*footer*/
-    footer{
-        padding-top: 3%;
-        padding-bottom: 3%;
-        background-color: rgb(50, 48, 48);
-        margin-top: 44%;
-      }
-      #footer{
-        width: 25%;
-        display: flex;
-        justify-content: space-between;
-      }
-      a{
-        color: white;
-      }
-      a:hover {
-        color: #1a1819;
-      }
-      #project1, #project2{
-        padding-top: 5%;
-        width: 80%;
-        margin:auto;
+  /*Mobile NavBar ***************************************************************************************/
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    width: 100%;
+  }
 
-      }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
 
+  /* Style navigation menu links */
+  .topnav a {
+    color: #1a1819;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .image-home {
+    width: 25px;
+    height: auto;
+    margin: 0 auto;
+  }
+  /*Mobile NavBar****************************************************************************************************/
+  body {
+    display: flex;
+    background-color: #ece7e1;
+    flex-direction: column;
+    height: 100%;
+    color: #1a1819;
+  }
+  #tools-used img {
+    width: 100%;
+  }
+
+  /*footer*/
+  footer {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(50, 48, 48);
+    margin-top: 44%;
+  }
+  #footer {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #1a1819;
+  }
+  #project1,
+  #project2 {
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+  }
 }

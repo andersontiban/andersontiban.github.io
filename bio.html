@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-    <script src="https://kit.fontawesome.com/2c13c550a3.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2c13c550a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!--bootstrap-->
     <title>About me</title>
-    <link rel="stylesheet" href="bio.css">
+    <link rel="stylesheet" href="bio.css" />
   </head>
   <header>
     <a href="index.html"><h2>home</h2></a>
@@ -20,56 +34,74 @@
     <a href="experience.html"><h2>experience</h2></a>
   </header>
 
-<!--Mobile NavBar-->
+  <!--Mobile NavBar-->
   <div class="topnav">
-    <a href="index.html" class="active"> <img class="image-home"src= "images/home.jfif"></a>
+    <a href="index.html" class="active">
+      <img class="image-home" src="images/home.jfif"
+    /></a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="experience.html">Experience</a>
+      <a href="bio.html">Bio</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="experience.html">Experience</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </a>
-</div>
-
+  </div>
 
   <body>
-    <div id = "intro"> 
-    <h1>About <br>Me</h1>
-    <img id="self-portraitMobile" src = "images/andersontiban.jfif">
+    <div id="intro">
+      <h1>About <br />Me</h1>
+      <img id="self-portraitMobile" src="images/andersontiban.jfif" />
     </div>
 
-    <div id = "about-me">
-      <p><span>I am</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore est accusamus delectus saepe perferendis ducimus fugiat tempore consectetur laboriosam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam illum architecto. Consequuntur esse ipsam atque aut natus odio ab?</p>
-      <img id="self-portrait" src = "images/andersontiban.jfif">
+    <div id="about-me">
+      <p>
+        <span>I am</span> Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Totam dolore est accusamus delectus saepe perferendis ducimus
+        fugiat tempore consectetur laboriosam?Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Enim nam illum architecto. Consequuntur
+        esse ipsam atque aut natus odio ab?
+      </p>
+      <img id="self-portrait" src="images/andersontiban.jfif" />
     </div>
-    <h2 id = interest>Interest</h2>
-    <div id = "interest">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore est accusamus delectus saepe perferendis ducimus fugiat tempore consectetur laboriosam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam illum architecto. Consequuntur esse ipsam atque aut natus odio ab?</p>
+    <h2 id="interest">Interest</h2>
+    <div id="interest">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore
+        est accusamus delectus saepe perferendis ducimus fugiat tempore
+        consectetur laboriosam?Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Enim nam illum architecto. Consequuntur esse ipsam
+        atque aut natus odio ab?
+      </p>
     </div>
 
     <script>
-    //Mobile NavBar
+      //Mobile NavBar
       function myFunction() {
         var x = document.getElementById("myLinks");
         if (x.style.display === "block") {
-        x.style.display = "none";
+          x.style.display = "none";
         } else {
-        x.style.display = "block";
+          x.style.display = "block";
+        }
       }
-}
-  </script>
+    </script>
   </body>
 
-    <footer>
-    <div id="footer" class ="container text-light text-center">
-      <a href="https://github.com/andersontiban"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/anderson-tiban/"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="mailto:andytiban12@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+  <footer>
+    <div id="footer" class="container text-light text-center">
+      <a href="https://github.com/andersontiban"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/anderson-tiban/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="mailto:andytiban12@gmail.com"
+        ><i class="fa-solid fa-envelope"></i
+      ></a>
     </div>
-
   </footer>
 </html>

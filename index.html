@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <header>
@@ -23,43 +34,46 @@
   </header>
   <!--Mobile NavBar-->
   <div class="topnav">
-    <a href="index.html" class="active"> <img class="image-home"src= "images/home.jfif"></a>
+    <a href="index.html" class="active">
+      <img class="image-home" src="images/home.jfif"
+    /></a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="experience.html">Experience</a>
+      <a href="bio.html">Bio</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="experience.html">Experience</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </a>
-</div>
+  </div>
   <body>
-  
-    <div id = "container">
-        <h1>Hi, Im Anderson <img id ="hand" src="images/testHandEmoji.png"></h1>
-        <h1 id = "mobile-h1">A Software Engineer_</h1>
-        <div id = "intro">
-            <p>Lorem&emsp;ipsum&emsp;dolor&emsp;sit amet  consectetur, adipisicing elit. Praesentium, quisquam exercitationem molestias .</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, quisquam exercitationem molestias .</p>
-           
-        </div>
-
+    <div id="container">
+      <h1>Hi, Im Anderson <img id="hand" src="images/testHandEmoji.png" /></h1>
+      <h1 id="mobile-h1">A Software Engineer_</h1>
+      <div id="intro">
+        <p>
+          Lorem&emsp;ipsum&emsp;dolor&emsp;sit amet consectetur, adipisicing
+          elit. Praesentium, quisquam exercitationem molestias .
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+          quisquam exercitationem molestias .
+        </p>
+      </div>
     </div>
-    
-
 
     <script>
       //Mobile NavBar
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
           x.style.display = "none";
-          } else {
+        } else {
           x.style.display = "block";
         }
-  }
+      }
     </script>
   </body>
 </html>
